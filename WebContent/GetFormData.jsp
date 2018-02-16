@@ -19,7 +19,7 @@ Written by Deborah Barndt. --%>
   	<title>ITMD 415/515 Customer Sign-Up Form</title>
 </head>
 <body>
-	<h2>Please enter your information into the form provided to sign-up.</h2>
+	<h3>Please enter your information into the form provided. Thank you.</h3>
 		
 	<form id='custinfo' action='ValidateFormDate.jsp' method='POST'>
 		<fieldset>
