@@ -194,15 +194,14 @@ img, audio, video {
 html {
   font-size: 12px;
   padding: 10px;
-  text-rendering: optimizeLegibility;
 }
 
 body {
-  margin-left: 1em; /* 5px; */
-  margin-right: 1em; /* 5px; */
-  padding: 1em; /* 5px; */
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 20px;
   font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
-  background-color: #E8E8E8;
+  background-color: #A4B4F7;
 }
 
 h1 {
@@ -210,27 +209,43 @@ h1 {
   margin-bottom: 5px;
 }
 
+fieldset {
+  padding: 25px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  border-color: #03186E;
+}
+
 p {
-  margin-top: 0.36em; /* 1.799px; */
-  margin-bottom: 0.36em; /* 1.799px; */
-  padding-top: 1em; /* 5px; */
-  padding-bottom: 1em; /* 5px; */
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 label {
   display: block;
+  float: left;
+  width: 30%;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+  font-weight: bold;
 }
 
 input[type=submit] {
   font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
-  margin-top: 0.648em; /* 10px; */
+  margin-top: 10px;
   background-color: #CDCDCD;
 }
 
 /* Mobile first queries */
 @media screen and (max-width: 480px) {
   form {
-    margin: 0 0 1em 0; /* 5px */
+    margin: 0 0 5px 0; 
     width: 100%;
   }
   form > label,
@@ -248,6 +263,7 @@ input[type=submit] {
     width: 95%; 
   }
 }
+
 @media screen and (max-width: 960px) {
   form > label,
 	legend {
