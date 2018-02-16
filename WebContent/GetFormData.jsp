@@ -15,13 +15,13 @@ Written by Deborah Barndt. --%>
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<link rel="stylesheet" href="/itmd515assign2/Webcontent/css/screen.css"/>
+	<link rel="stylesheet" href="/itmd515assign2/css/screen.css"/>
   	<title>ITMD 415/515 Customer Sign-Up Form</title>
 </head>
 <body>
 	<h3>Please enter your information into the form provided. Thank you.</h3>
 		
-	<form id='custinfo' action='ValidateFormDate.jsp' method='POST'>
+	<form id="custinfo" action="ValidateFormDate.jsp" method="POST">
 		<fieldset>
 			<legend>Customer Sign-Up</legend>
 			<p>
