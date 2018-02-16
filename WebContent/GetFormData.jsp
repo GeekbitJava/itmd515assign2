@@ -107,6 +107,9 @@ Written by Deborah Barndt. --%>
 					<option value="Wyoming">WY</option>												
 				</select>
 			</p>
+			<p>
+				<input type="submit" id="submit" value="Submit"/>
+			</p>
 		</fieldset>
 	</form>
 </body>
