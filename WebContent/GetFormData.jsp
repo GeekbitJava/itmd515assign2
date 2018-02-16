@@ -15,7 +15,7 @@ Written by Deborah Barndt. --%>
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<link rel="stylesheet" href="/css/screen.css"/>
+	<link rel="stylesheet" href="itmd515assign2/Webcontent/css/screen.css"/>
   	<title>ITMD 415/515 Customer Sign-Up Form</title>
 </head>
 <body>
