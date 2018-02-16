@@ -192,9 +192,8 @@ img, audio, video {
 */
 
 html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 12px;
+  padding: 10px;
   text-rendering: optimizeLegibility;
 }
 
@@ -208,6 +207,7 @@ body {
 
 h1 {
   font-family: 'Righteous', Arial, sans-serif;
+  margin-bottom: 5px;
 }
 
 p {
@@ -219,12 +219,6 @@ p {
 
 label {
   display: block;
-}
-
-input[type=email] {
-  border: none;
-  background-color: #CDCDCD;
-  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
 }
 
 input[type=submit] {

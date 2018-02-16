@@ -16,13 +16,13 @@ Written by Deborah Barndt. --%>
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>ITMD 415/515 Customer Sign-Up Form</title>
-	<link rel="stylesheet" href="WebContent/css/screen.css"/>
+	<link rel="stylesheet" href="css/screen.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 </head>
 <body>
-	<h3>Please enter your information into the form provided. Thank you.</h3>
+	<h1>Please enter your information into the form provided. Thank you.</h1>
 		
 	<form id="custinfo" action="ValidateFormDate.jsp" method="POST">
 		<fieldset>
