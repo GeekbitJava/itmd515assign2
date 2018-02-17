@@ -8,4 +8,3 @@ longitude and latitude, and send a thank you message back to the
 user.
 Written by Deborah Barndt. --%>
 
-<p> Potato </p>
