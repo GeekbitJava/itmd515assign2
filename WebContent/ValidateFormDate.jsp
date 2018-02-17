@@ -27,3 +27,27 @@ Written by Deborah Barndt. --%>
 	<p>Thank you for signing up!</p>
 </body>
 </html>
+
+<%!
+	public class Validation
+	{
+		public boolean validName(String name)
+		{
+			// Check to see if the name the user entered is valid.
+			return((name.length() >= 4) & (name.length() <= 50));
+		}
+		
+		public static socialNum(String ssn)
+		{
+			if(ssn.length() != 11)
+			{
+				return false;
+			}
+			
+			for(int i = 0; i < ssn.length(); i++)
+			{
+		
+			}
+		}
+	}
+%>

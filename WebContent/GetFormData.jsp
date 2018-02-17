@@ -28,12 +28,8 @@ Written by Deborah Barndt. --%>
 		<fieldset>
 			<legend>Customer Sign-Up</legend>
 			<p>
-				<label for="fname">First Name: </label>
-				<input type="text" id="fname" name="fname" value="First Name" autocomplete="name"/>
-			</p>
-			<p>
-				<label for="lname">Last Name: </label>
-				<input type="text" id="lname" name="lname" value="Last Name" autocomplete="name"/>
+				<label for="fname">Customer Name: </label>
+				<input type="text" id="name" name="custname" value="Customer name" autocomplete="name"/>
 			</p>
 			<p>
 				<label for="ssn">Social Security Number: </label>
