@@ -192,28 +192,28 @@ img, audio, video {
 */
 
 html {
-  font-size: 10px;
+  font-size: 20px;
   padding: 10px;
 }
 
 body {
   margin-left: 5px;
   margin-right: 5px;
-  padding: 20px;
+  padding: 15px;
   font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
   background-color: #E8E8E8;
 }
 
 h1 {
   font-family: 'Righteous', Arial, sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 fieldset {
   padding: 25px;
   margin-left: 5px;
   font-size: 18px;
-  font-family: Arial, sans-serif;
+  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
   border: 2px solid blue;
   border-color: #03186E;
 }
@@ -268,6 +268,11 @@ input[type=submit] {
   form > label,
 	legend {
   	text-align: right;
+  }
+  
+  form > fieldset {
+    width: 80%;
+    float: none;
   }
 }
 

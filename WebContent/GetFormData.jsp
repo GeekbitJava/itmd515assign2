@@ -45,7 +45,7 @@ Written by Deborah Barndt. --%>
 			</p>
 			<p>
 				<label for="email">Email Address: </label>
-				<input type="email" id="email" name="email" value="youremail@gmail.com" autocomplete="email"/>
+				<input type="email" id="email" name="email" value="example@email.com" autocomplete="email"/>
 			</p>
 			<p>
 				<label for="address">Address: </label>
