@@ -37,5 +37,33 @@ Written by Deborah Barndt. --%>
 			return((name.length() >= 4) & (name.length() <= 50));
 		}
 
+		public boolean validSocial(String ssn)
+		{
+			if(ssn.length() != 11)
+			{
+				return false;
+			}
+			
+			for(int i = 0; i < ssn.length(); i++)
+			{
+				if(i == 4 || i == 8)
+				{
+					if(!(ssn.charAt(i) == '-'))
+					{
+						return false;
+					}
+				}
+				
+				else
+				{
+					if(!(Character.isDigit(ssn.charAt(i))))
+					{
+						return false;
+					}
+				}
+			}
+			
+			return true;
+		}
 	}
 %>
