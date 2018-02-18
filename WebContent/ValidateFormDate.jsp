@@ -36,18 +36,6 @@ Written by Deborah Barndt. --%>
 			// Check to see if the name the user entered is valid.
 			return((name.length() >= 4) & (name.length() <= 50));
 		}
-		
-		public static socialNum(String ssn)
-		{
-			if(ssn.length() != 11)
-			{
-				return false;
-			}
-			
-			for(int i = 0; i < ssn.length(); i++)
-			{
-		
-			}
-		}
+
 	}
 %>
