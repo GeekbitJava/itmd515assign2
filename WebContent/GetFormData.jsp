@@ -29,27 +29,27 @@ Written by Deborah Barndt. --%>
 			<legend>Customer Sign-Up</legend>
 			<p>
 				<label for="fname">Customer Name: </label>
-				<input type="text" id="name" name="custname" value="Customer name" autocomplete="name"/>
+				<input type="text" id="name" name="custname" placeholder="Customer name" autocomplete="name"/>
 			</p>
 			<p>
 				<label for="ssn">Social Security Number: </label>
-				<input type="text" id="ssn" name="custssn" value="xxx-xx-xxxx"/>
+				<input type="text" id="ssn" name="custssn" placeholder="xxx-xx-xxxx"/>
 			</p>
 			<p>
 				<label for="zip">Zip Code: </label>
-				<input type="text" id="zip" name="custzip" value="xxxxx-xxxx" autocomplete="postal-code"/>
+				<input type="text" id="zip" name="custzip" placeholder="xxxxx-xxxx" autocomplete="postal-code"/>
 			</p>
 			<p>
 				<label for="email">Email Address: </label>
-				<input type="email" id="email" name="email" value="example@email.com" autocomplete="email"/>
+				<input type="email" id="email" name="email" placeholder="example@email.com" autocomplete="email"/>
 			</p>
 			<p>
 				<label for="address">Address: </label>
-				<input type="text" id="address" name="address" value="Address" autocomplete="address"/>
+				<input type="text" id="address" name="address" placeholder="Address" autocomplete="address"/>
 			</p>
 			<p>
 				<label for="city">City: </label>
-				<input type="text" id="city" name="city" value="City" autocomplete="address-level2"/>
+				<input type="text" id="city" name="city" placeholder="City" autocomplete="address-level2"/>
 			</p>
 			<p>
 				<label for="state">State: </label>
