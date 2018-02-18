@@ -236,6 +236,24 @@ label {
   font-weight: bold;
 }
 
+input[type=email] {
+  border: none;
+  background-color: #CDCDCD;
+  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
+}
+
+input[type=text] {
+  border: none;
+  background-color: #CDCDCD;
+  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
+}
+
+select {
+  border: none;
+  background-color: #CDCDCD;
+  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
+}
+
 input[type=submit] {
   font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
   margin-top: 10px;
