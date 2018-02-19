@@ -216,6 +216,7 @@ fieldset {
   font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
   border: 2px solid blue;
   border-color: #03186E;
+  width: 70%;
 }
 
 p {
