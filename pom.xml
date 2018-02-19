@@ -3,9 +3,17 @@
   <groupId>itmd515assign2</groupId>
   <artifactId>itmd515assign2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+	<dependencies>
+		<dependency>
+    		<groupId>javax.validation</groupId>
+    		<artifactId>validation-api</artifactId>
+    		<version>2.0.1.Final</version>
+		</dependency>
+	</dependencies>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
