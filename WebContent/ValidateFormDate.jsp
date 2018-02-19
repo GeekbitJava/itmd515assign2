@@ -22,48 +22,72 @@ Written by Deborah Barndt. --%>
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-</head>
-<body>
-	<p>Thank you for signing up!</p>
-</body>
-</html>
 
-<%!
-	public class Validation
-	{
-		public boolean validName(String name)
+	<script type="text/javascript">
+		function validate()
 		{
-			// Check to see if the name the user entered is valid.
-			return((name.length() >= 4) & (name.length() <= 50));
-		}
-
-		public boolean validSocial(String ssn)
-		{
-			if(ssn.length() != 11)
+			var name = GetFormData.document.getElementById("name");
+			var ssn = GetFormData.document.getElementById("ssn");
+			var zip = GetFormData.document.getElementById("zip");
+			var email = GetFormData.document.getElementById("email");
+			var address = GetFormData.document.getElementById("address");
+			var city = GetFormData.document.getElementById("city");
+			
+			if (document.custinfo.name.value == "" ||
+					document.custinfo.name.value < 4 ||
+					document.custinfo.name.value > 50)
 			{
+				alert("Please provide your name, and must be between 4-50 characters.");
+				document.custinfo.name.focus();
 				return false;
 			}
 			
-			for(int i = 0; i < ssn.length(); i++)
+			if (document.custinfo.ssn.value == "" ||
+					document.custinfo.ssn.value != 11)
 			{
-				if(i == 4 || i == 8)
-				{
-					if(!(ssn.charAt(i) == '-'))
-					{
-						return false;
-					}
-				}
-				
-				else
-				{
-					if(!(Character.isDigit(ssn.charAt(i))))
-					{
-						return false;
-					}
-				}
+				alert("Please provide your social security number in the format xxx-xx-xxx, including the dashes..");
+				document.custinfo.ssn.focus();
+				return false;
 			}
 			
-			return true;
+			if (document.custinfo.zip.value == "" ||
+					isNaN(document.custinfo.zip.value) ||
+					document.custinfo.zip.value.length != 9)
+			{
+				alert("Please provide your zip code in the format xxxxx-xxxx.");
+				document.custinfo.zip.focus();
+				return false;
+			}
+			
+			if (document.custinfo.email.value == "")
+			{
+				alert("Please provide your email address.");
+				document.custinfo.email.focus();
+				return false;
+			}
+			
+			if (document.custinfo.address.value == "" ||
+					document.custinfo.address.value < 4 ||
+					document.custinfo.address.value > 50)
+			{
+				alert("Please provide your street address, and it must be between 4-50 characters.");
+				document.custinfo.address.focus();
+				return false;
+			}
+			
+			if (document.custinfo.city.value == "" ||
+					document.custinfo.city.value < 3 ||
+					document.custinfo.city.value > 50)
+			{
+				alert("Please provide your city, and it must be between 3-50 characters.");
+				document.custinfo.city.focus();
+				return false;
+			}
 		}
-	}
-%>
+	</script>
+</head>
+<body>
+	<p>Thank you for signing up!</p>
+	<p>Just a moment while we validate your information.</p>
+</body>
+</html>
