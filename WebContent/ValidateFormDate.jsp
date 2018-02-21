@@ -1,5 +1,6 @@
 <%-- 
 Deborah Barndt
+Thomas Boller
 2-14-18
 ValidateFormDate.jsp
 Programming Assignment 2
@@ -7,7 +8,7 @@ This program should validate the input from the user, and any
 violation of the set processing rules will be reported back to the
 user with a detailed message. If the information is correct, it will
 forward the user to the ProcessCustomerDataRequest file.
-Written by Deborah Barndt. --%>
+Written by Deborah Barndt & Thomas Boller. --%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>

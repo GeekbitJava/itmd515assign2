@@ -3,12 +3,13 @@ import javax.validation.constraints.*;
 
 /*
  * Deborah Barndt
+ * Thomas Boller
  * 2-14-18
  * ValidationBean.java
  * Programming Assignment 2
  * This program will validate the zip code and email address entered in the form
  * via the user input and validate the other input form fields.
- * Written by Deborah Barndt, and Thomas Boller. 
+ * Written by Deborah Barndt & Thomas Boller. 
  */
 
 public class ValidationBean

@@ -1,11 +1,12 @@
 <%-- 
 Deborah Barndt
+Thomas Boller
 2-14-18
 GetFormData.jsp
 Programming Assignment 2
 This program includes an html form with an action set to go to the
 ValidateFormDate.jsp.
-Written by Deborah Barndt. --%>
+Written by Deborah Barndt & Thomas Boller. --%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
