@@ -13,18 +13,9 @@ import javax.validation.constraints.*;
 
 public class ValidationBean
 {
-	/*private String 	name,
-					email,
-					ssn,
-					address,
-					zip,
-					city,
-					state,
-					lng,
-					lat;
-	private Hashtable errormsg;*/
+		//The following are the beans variables, with annotations for validation
 	
-			@NotNull
+		@NotNull
 		private String name;
 		
 		@NotNull
@@ -39,9 +30,57 @@ public class ValidationBean
 		@Email
 		private String email;
 		
+		private String address;		
+		private String city;
+		private String state;
 		
+		//the following are the beans getter and setter methods
 		
-		
+	    public void setName(String name) {
+	        this.name = name;
+	     }
+	    public String getName() {
+	        return name;
+	     }		
+	    public void setSsn(String ssn) {
+	         this.ssn = ssn;
+	      }
+	    public String getSsn() {
+	         return ssn;
+	      }	     
+	    public void setZip(String zip) {
+	         this.zip = zip;
+	      }
+	    public String getZip() {
+	         return zip;
+	      }	     
+	    public void setEmail(String email) {
+	          this.email = email;
+	       }
+	    public String getEmail() {
+	          return email;
+	       }
+	    public void setAddress(String address) {
+	          this.address = address;
+	       }
+	    public String getAddress() {
+	          return address;
+	       }	
+	    public void setCity(String city) {
+	          this.city = city;
+	       }
+	    public String getCity() {
+	          return city;
+	       }	    
+	    public void setState(String state) {
+	          this.state = state;
+	       }
+	    public String getState() {
+	          return state;
+	       }	    
+	    
+	    
+	    
 		/*boolean passValidation = true;
 		
 		if (!(email.length() < 7) || (email.indexOf("@") == 0))
