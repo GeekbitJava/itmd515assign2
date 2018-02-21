@@ -30,27 +30,27 @@ Written by Deborah Barndt & Thomas Boller. --%>
 			<legend>Customer Sign-Up</legend>
 			<p>
 				<label for="fname">Customer Name: </label>
-				<input type="text" id="name" name="name" placeholder="Customer name" autocomplete="name" required/>
+				<input type="text" id="name" name="name" placeholder="Customer name" autocomplete="name" required />
 			</p>
 			<p>
 				<label for="ssn">Social Security Number: </label>
-				<input type="text" id="ssn" name="ssn" placeholder="xxx-xx-xxxx" required/>
+				<input type="text" id="ssn" name="ssn" placeholder="xxx-xx-xxxx" required />
 			</p>
 			<p>
 				<label for="zip">Zip Code: </label>
-				<input type="text" id="zip" name="zip" placeholder="xxxxx-xxxx" autocomplete="postal-code" required/>
+				<input type="text" id="zip" name="zip" placeholder="xxxxx-xxxx" autocomplete="postal-code" required />
 			</p>
 			<p>
 				<label for="email">Email Address: </label>
-				<input type="email" id="email" name="email" placeholder="example@email.com" autocomplete="email" required/>
+				<input type="email" id="email" name="email" placeholder="example@email.com" autocomplete="email" required />
 			</p>
 			<p>
 				<label for="address">Address: </label>
-				<input type="text" id="address" name="address" placeholder="Address" autocomplete="address" required/>
+				<input type="text" id="address" name="address" placeholder="Address" autocomplete="address" required />
 			</p>
 			<p>
 				<label for="city">City: </label>
-				<input type="text" id="city" name="city" placeholder="City" autocomplete="address-level2" required/>
+				<input type="text" id="city" name="city" placeholder="City" autocomplete="address-level2" required />
 			</p>
 			<p>
 				<label for="state">State: </label>
@@ -108,7 +108,7 @@ Written by Deborah Barndt & Thomas Boller. --%>
 				</select>
 			</p>
 			<p>
-				<input type="submit" id="submit" value="Submit"/>
+				<input type="submit" id="submit" value="Submit" />
 			</p>
 		</fieldset>
 	</form>
