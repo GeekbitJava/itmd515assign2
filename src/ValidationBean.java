@@ -1,4 +1,5 @@
 import java.util.Hashtable;
+import javax.validation.constraints.*;
 
 /*
  * Deborah Barndt
@@ -7,7 +8,7 @@ import java.util.Hashtable;
  * Programming Assignment 2
  * This program will validate the zip code and email address entered in the form
  * via the user input and validate the other input form fields.
- * Written by Deborah Barndt. 
+ * Written by Deborah Barndt, and Thomas Boller. 
  */
 
 public class ValidationBean
@@ -23,9 +24,7 @@ public class ValidationBean
 					lat;
 	private Hashtable errormsg;*/
 	
-	public class validate()
-	{
-		@NotNull
+			@NotNull
 		private String name;
 		
 		@NotNull
@@ -51,5 +50,9 @@ public class ValidationBean
 			email = "";
 			passValidation = false;
 		}*/
+	
+	public void validate()
+	{
+
 	}
 }
