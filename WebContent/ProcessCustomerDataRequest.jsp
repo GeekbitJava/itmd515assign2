@@ -30,7 +30,7 @@ Written by Deborah Barndt & Thomas Boller. --%>
 			message += "<li>Email Address: </li>" + document.custinfo.email.value;
 			message += "<li>Address: </li>" + document.custinfo.address.value;
 			message += "<li>City: </li>" + document.custinfo.city.value;
-			message += "<li>State: </li>" + document.custinfo.state.value;
+			message += "<li>State: </li></ul>" + document.custinfo.state.value;
 			DispWin.document.write(message);		
 		}
 		
@@ -54,4 +54,7 @@ Written by Deborah Barndt & Thomas Boller. --%>
 		<output form="custinfo" name="output" for="name ssn zip email address city state"></output>
 	</p>
 </body>
+	<script>
+		window.addEventListener("click",displayData);
+	</script>
 </html>
