@@ -25,7 +25,7 @@ Written by Deborah Barndt & Thomas Boller. --%>
 <body>
 	<h1>Please enter your information into the form provided. Thank you.</h1>
 		
-	<form id="custinfo" name="custinfo" action="ValidateFormDate.jsp" method="POST">
+	<form id="custinfo" name="custinfo" action="ValidateFormDate.jsp" method="POST" oninput="output.value">
 		<fieldset>
 			<legend>Customer Sign-Up</legend>
 			<p>

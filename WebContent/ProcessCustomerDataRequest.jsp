@@ -33,9 +33,25 @@ Written by Deborah Barndt & Thomas Boller. --%>
 			message += "<li>State: </li>" + document.custinfo.state.value;
 			DispWin.document.write(message);		
 		}
+		
+		function showInput()
+		{
+			document.getElementByID('display').innerHTML = document.getElementById("name").value;
+			document.getElementByID('display').innerHTML = document.getElementById("ssn").value;
+			document.getElementByID('display').innerHTML = document.getElementById("zip").value;
+			document.getElementByID('display').innerHTML = document.getElementById("email").value;
+			document.getElementByID('display').innerHTML = document.getElementById("address").value;
+			document.getElementByID('display').innerHTML = document.getElementById("city").value;
+			document.getElementByID('display').innerHTML = document.getElementById("state").value;
+		}
 	</script>
 </head>
 <body>
-	<p>Thank you for signing up!</p>
+	<p>
+		Welcome...
+	</p>
+	<p>
+		<output form="custinfo" name="output" for="name ssn zip email address city state"></output>
+	</p>
 </body>
 </html>
