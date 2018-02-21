@@ -4,7 +4,6 @@
   <artifactId>itmd515assign2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-<<<<<<< HEAD
   
   <dependencies>
 	<dependency>
@@ -20,8 +19,8 @@
 		<scope>provided</scope>
   </dependency>
   </dependencies>
-=======
->>>>>>> 87c208f37d47064a915c6e19a8ac1644ba03ce12
+  
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
