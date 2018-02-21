@@ -25,7 +25,7 @@ Written by Deborah Barndt & Thomas Boller. --%>
 <body>
 	<h1>Please enter your information into the form provided. Thank you.</h1>
 		
-	<form id="custinfo" action="ValidateFormDate.jsp" method="POST">
+	<form id="custinfo" name="custinfo" action="ValidateFormDate.jsp" method="POST">
 		<fieldset>
 			<legend>Customer Sign-Up</legend>
 			<p>
@@ -108,7 +108,7 @@ Written by Deborah Barndt & Thomas Boller. --%>
 				</select>
 			</p>
 			<p>
-				<input type="submit" id="submit" value="Submit" />
+				<input type="submit" id="submit" value="Submit" onclick="validate();" />
 			</p>
 		</fieldset>
 	</form>
