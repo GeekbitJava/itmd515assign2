@@ -1,6 +1,8 @@
 
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -27,7 +29,27 @@ public class Session extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+		// Step 1: set content type
+		response.setContentType("text/html");
+		
+		// Step 2. get the printwriter
+		PrintWriter out = response.getWriter();
+		
+		// Step 3: generate the HTML content
+		out.println("<html><body>");
+		
+		out.println("The customer is confirmed: "
+				+ request.getParameter("name") + " "
+				+ request.getParameter("ssn") + " "
+				+ request.getParameter("zip") + " "
+				+ request.getParameter("email") + " "
+				+ request.getParameter("address") + " "
+				+ request.getParameter("city") + " "
+				+ request.getParameter("state"));
+		
+		out.println("</body></html>");
 	}
 
 	/**
