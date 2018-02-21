@@ -83,7 +83,7 @@ Written by Deborah Barndt. --%>
 				document.custinfo.city.focus();
 				return false;
 			}
-		}
+		});
 	</script>
 </head>
 <body>
