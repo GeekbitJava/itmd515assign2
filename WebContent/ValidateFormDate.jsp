@@ -88,6 +88,6 @@ Written by Deborah Barndt. --%>
 </head>
 <body>
 	<p>Thank you for signing up!</p>
-	<p>Just a moment while we validate your information.</p>
+	<p>Just a moment while we validate your information....</p>
 </body>
 </html>
