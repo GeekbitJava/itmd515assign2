@@ -3,7 +3,7 @@
   <groupId>itmd515assign2</groupId>
   <artifactId>itmd515assign2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
